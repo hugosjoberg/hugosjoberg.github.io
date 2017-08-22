@@ -1,0 +1,22 @@
+# Site settings
+title: Hugo's nest of thoughts
+email: hugo.sjoberg@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  I hold a MsC from the faculty of Engineering, Lund University. Even though I
+  didn't study computer science this is my new born interest. I work as a developer
+  and I try to take in as much as possible in the field. I am interested in
+  machine-learning and more specifically deep-learning. Python will be my preferred weapon
+  of choice but soon enough I will also be able to wield C++.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "hugocool24.github.io" # the base hostname & protocol for your site
+twitter_username: HugoTheGeekBoss
+github_username:  hugocool24
+linkedin_username: hugo-sjöberg-56a31743
+# Build settings
+markdown: kramdown
+
+paginate: 4
+
+author: Hugo Sjöberg
+
+gems: [jekyll-paginate]
