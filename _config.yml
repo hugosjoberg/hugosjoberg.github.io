@@ -19,4 +19,9 @@ paginate: 4
 
 author: Hugo Sjöberg
 
-gems: [jekyll-paginate]
+plugins:  jekyll-paginate
+jekyll-feed
+jekyll-redirect-from
+jekyll-seo-tag
+jekyll-sitemap
+jekyll-avatar
