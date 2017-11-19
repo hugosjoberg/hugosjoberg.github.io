@@ -14,7 +14,7 @@ github_username:   "hugocool24"
 linkedin_username: "hugo-sjöberg-56a31743"
 # Build settings
 markdown:          kramdown
-highlighter: rouge
+highlighter:       rouge
 paginate:          4
 
 author:            "Hugo Sjöberg"
