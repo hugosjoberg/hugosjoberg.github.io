@@ -29,14 +29,14 @@ An example of what happens when the game reaches a local minimum would be that t
 ## Convolutional Neural Network
 A Convolutional Neural Network or CNN is a kind of network that is suitable to use when the input format to the neural net is a matrix or tensor instead of a vector. In our case the input we use is a 80x80x1 image. A convolution is a sliding filter that gets applied to the picture. In the gif below a 3x3 kernel filter it applied to a black and white picture. Where the 0 is black and 1 is white. The filter multiplies the values element-wise and sums them up.
 
-![Test]({{/images/Convolution_schematic.gif}})
+![]({{images/Convolution_schematic.gif}})
 
 How this works in practice is somewhat shown below where a kernel filter is applied to a picture of Taj Mahal.
 
-![]({{/images/convolution-edge-detect1.png)
+![]({{images/convolution-edge-detect1.png)
 ![Kernel filter applied to Taj Mahal](../images/generic-taj-convmatrix-edge-detect.jpg}})
 
-![]({{/images/convolution-calculate.png}})
+![]({{images/convolution-calculate.png}})
 
 The way the filter is applied is also shown in the picture above where the filter reads from left to right, top to down. With the filter applied to the matrix the result is 42: (40\*0)+(42\*1)+(46\*0) + (46\*0)+(50\*0)+(55\*0) + (52\*0)+(56\*0)+(58\*0) = 42.
 
@@ -97,7 +97,7 @@ In this part of the code we build up the CNN.
 - Strides refers to how the kernel moves over the images, now it moves with 4, 4 pixels. - input_shape is the dimension of the picture that we feed to the convolution layer. 
 - The layer that says Dense(NB_ACTIONS) is the layer that makes sure that we get 4 possible actions out from the network.
 
-{% highlight python %}
+```python
 def stack_image(game_image):
     #Make image black and white
     x_t = skimage.color.rgb2gray(game_image)
@@ -110,10 +110,10 @@ def stack_image(game_image):
     # Reshape to make keras like it
     s_t = s_t.reshape(1, s_t.shape[0], s_t.shape[1], s_t.shape[2])
     return s_t
-{% endhighlight %}
+```
 This part of the code actually has good comments describing each step. 
 
-{% highlight python %}
+```python
 def train_network(model):
 
     game_state = game.Game() #Starting up a game
@@ -143,7 +143,7 @@ def train_network(model):
 	    x_t1_colored, r_t, terminal = game_state.run(a_t)
 	    s_t1 = stack_image(x_t1_colored)
 	    d.append((s_t, a_t, r_t, s_t1))
-{% endhighlight %}
+```
 
 First the game i started and gives back information about the initial state and also gets an image from the game. I initialize loss and Q_sa to 0. If the game is lost I the game is restarted.
 
@@ -151,7 +151,7 @@ Then the agent will make a random action or predict an action. This is to make s
 
 Then the action is fed to the game and we receive an image with the new state and also state information such as reward and is the game is over or not.
 
-{% highlight python %}
+```python
 	    if len(d)==BATCH:
 	        inputs = np.zeros((BATCH, s_t.shape[1], s_t.shape[2], s_t.shape[3]))
 	        targets = np.zeros((BATCH, NB_ACTIONS))
@@ -169,8 +169,7 @@ Then the action is fed to the game and we receive an image with the new state an
 	        #Exploration vs Exploitation
 	        if EPSILON > FINAL_EPSILON:
 	            EPSILON -= EPSILON/500
-               
-{% endhighlight %}
+```
 
 Here is the part where we do perform the Q-learning. We loop through the current state, action correlating with that state, the reward and also the next state. For each state we calculate the corresponding Q-value and then we train our model on the small batch.
 
