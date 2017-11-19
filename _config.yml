@@ -13,9 +13,11 @@ twitter_username:  HugoTheGeekBoss"
 github_username:   "hugocool24"
 linkedin_username: "hugo-sjöberg-56a31743"
 # Build settings
-markdown:          kramdown
-highlighter:       rouge
-paginate:          4
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
 
 author:            "Hugo Sjöberg"
 
