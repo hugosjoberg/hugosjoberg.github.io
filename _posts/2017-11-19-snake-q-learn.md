@@ -34,7 +34,7 @@ A Convolutional Neural Network or CNN is a kind of network that is suitable to u
 How this works in practice is somewhat shown below where a kernel filter is applied to a picture of Taj Mahal.
 
 ![]({{ https://hugocool24.github.io/ }}/images/convolution-edge-detect1.png)
-![Kernel filter applied to Taj Mahal](../images/generic-taj-convmatrix-edge-detect.jpg}})
+![]({{ https://hugocool24.github.io/ }}/images/generic-taj-convmatrix-edge-detect.jpg)
 
 ![]({{ https://hugocool24.github.io/ }}/images/convolution-calculate.png)
 
