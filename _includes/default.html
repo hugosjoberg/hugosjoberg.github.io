@@ -2,7 +2,9 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {% include head.html %}
-
+  <head>
+    <link href="{{ site.baseurl }}/css/syntax.css" rel="stylesheet">
+  </head>
   <body>
 
     {% include header.html %}
@@ -15,7 +17,6 @@
 
     {% include footer.html %}
     {% include analytics.html %}
-    <link href="{{ site.baseurl }}/css/syntax.css" rel="stylesheet">
     <script id="dsq-count-scr" src="//https-hugocool24-github-io.disqus.com/count.js" async></script>
   </body>
 
