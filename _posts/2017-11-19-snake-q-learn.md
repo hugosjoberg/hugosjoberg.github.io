@@ -72,8 +72,7 @@ The Q-value is the brain of the agent, it is the memory of the past actions and 
 
 Let's walk through some parts of the code.
 
-{% highlight python %}
-
+{% highlight python linenos %}
 def build_model():
     model = Sequential()
     model.add(Convolution2D(16, (8, 8), strides=(4, 4),input_shape=INPUT_SHAPE))
@@ -97,7 +96,7 @@ In this part of the code we build up the CNN.
 - Strides refers to how the kernel moves over the images, now it moves with 4, 4 pixels. - input_shape is the dimension of the picture that we feed to the convolution layer.
 - The layer that says Dense(NB_ACTIONS) is the layer that makes sure that we get 4 possible actions out from the network.
 
-{% highlight python %}
+{% highlight python linenos %}
 def stack_image(game_image):
     #Make image black and white
     x_t = skimage.color.rgb2gray(game_image)
@@ -113,7 +112,7 @@ def stack_image(game_image):
 {% endhighlight %}
 This part of the code actually has good comments describing each step.
 
-{% highlight python %}
+{% highlight python linenos%}
 def train_network(model):
 
     game_state = game.Game() #Starting up a game
@@ -151,7 +150,7 @@ Then the agent will make a random action or predict an action. This is to make s
 
 Then the action is fed to the game and we receive an image with the new state and also state information such as reward and is the game is over or not.
 
-{% highlight python %}
+{% highlight python linenos %}
 	    if len(d)==BATCH:
 	        inputs = np.zeros((BATCH, s_t.shape[1], s_t.shape[2], s_t.shape[3]))
 	        targets = np.zeros((BATCH, NB_ACTIONS))
