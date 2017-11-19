@@ -29,14 +29,14 @@ An example of what happens when the game reaches a local minimum would be that t
 ## Convolutional Neural Network
 A Convolutional Neural Network or CNN is a kind of network that is suitable to use when the input format to the neural net is a matrix or tensor instead of a vector. In our case the input we use is a 80x80x1 image. A convolution is a sliding filter that gets applied to the picture. In the gif below a 3x3 kernel filter it applied to a black and white picture. Where the 0 is black and 1 is white. The filter multiplies the values element-wise and sums them up.
 
-![]({{images/Convolution_schematic.gif}})
+![]({{ site.url }}/images/Convolution_schematic.gif)
 
 How this works in practice is somewhat shown below where a kernel filter is applied to a picture of Taj Mahal.
 
-![]({{images/convolution-edge-detect1.png)
+![]({{ site.url }}/images/convolution-edge-detect1.png)
 ![Kernel filter applied to Taj Mahal](../images/generic-taj-convmatrix-edge-detect.jpg}})
 
-![]({{images/convolution-calculate.png}})
+![]({{ site.url }}/images/convolution-calculate.png)
 
 The way the filter is applied is also shown in the picture above where the filter reads from left to right, top to down. With the filter applied to the matrix the result is 42: (40\*0)+(42\*1)+(46\*0) + (46\*0)+(50\*0)+(55\*0) + (52\*0)+(56\*0)+(58\*0) = 42.
 
@@ -66,9 +66,9 @@ The gamma parameter is responsible for how long into the future we want to be th
 The state is the current picture of the game, where the snake and the apple is in the game.
 Actions are the possible actions that the agent can do.
 
-The Q-value is the brain of the agent, it is the memory of the past actions and rewards of the agent. 
+The Q-value is the brain of the agent, it is the memory of the past actions and rewards of the agent.
 
-## Code walkthrough 
+## Code walkthrough
 
 Let's walk through some parts of the code.
 
@@ -90,11 +90,11 @@ def build_model():
     return model
 {% endhighlight %}
 
-In this part of the code we build up the CNN. 
+In this part of the code we build up the CNN.
 
-- The third row describes the first convolution layer, 16 means that the dimension of the output space of the convolution. 
-- (8, 8) is the size of the kernel filter. 
-- Strides refers to how the kernel moves over the images, now it moves with 4, 4 pixels. - input_shape is the dimension of the picture that we feed to the convolution layer. 
+- The third row describes the first convolution layer, 16 means that the dimension of the output space of the convolution.
+- (8, 8) is the size of the kernel filter.
+- Strides refers to how the kernel moves over the images, now it moves with 4, 4 pixels. - input_shape is the dimension of the picture that we feed to the convolution layer.
 - The layer that says Dense(NB_ACTIONS) is the layer that makes sure that we get 4 possible actions out from the network.
 
 ```python
@@ -111,7 +111,7 @@ def stack_image(game_image):
     s_t = s_t.reshape(1, s_t.shape[0], s_t.shape[1], s_t.shape[2])
     return s_t
 ```
-This part of the code actually has good comments describing each step. 
+This part of the code actually has good comments describing each step.
 
 ```python
 def train_network(model):
@@ -182,4 +182,3 @@ Thank you for taking you time to read through this. If you have any questions or
 ## Disclaimer
 
 This post has been influenced by [this](https://yanpanlau.github.io/2016/07/10/FlappyBird-Keras.html) post, describing how q-learn can be used to play Flappy Bird.
-
