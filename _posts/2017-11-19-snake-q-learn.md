@@ -29,14 +29,14 @@ An example of what happens when the game reaches a local minimum would be that t
 ## Convolutional Neural Network
 A Convolutional Neural Network or CNN is a kind of network that is suitable to use when the input format to the neural net is a matrix or tensor instead of a vector. In our case the input we use is a 80x80x1 image. A convolution is a sliding filter that gets applied to the picture. In the gif below a 3x3 kernel filter it applied to a black and white picture. Where the 0 is black and 1 is white. The filter multiplies the values element-wise and sums them up.
 
-![]({{ https://hugocool24.github.io }}/images/Convolution_schematic.gif)
+![]({{ https://hugocool24.github.io/ }}/images/Convolution_schematic.gif)
 
 How this works in practice is somewhat shown below where a kernel filter is applied to a picture of Taj Mahal.
 
-![]({{ https://hugocool24.github.io }}/images/convolution-edge-detect1.png)
+![]({{ https://hugocool24.github.io/ }}/images/convolution-edge-detect1.png)
 ![Kernel filter applied to Taj Mahal](../images/generic-taj-convmatrix-edge-detect.jpg}})
 
-![]({{ https://hugocool24.github.io }}/images/convolution-calculate.png)
+![]({{ https://hugocool24.github.io/ }}/images/convolution-calculate.png)
 
 The way the filter is applied is also shown in the picture above where the filter reads from left to right, top to down. With the filter applied to the matrix the result is 42: (40\*0)+(42\*1)+(46\*0) + (46\*0)+(50\*0)+(55\*0) + (52\*0)+(56\*0)+(58\*0) = 42.
 
