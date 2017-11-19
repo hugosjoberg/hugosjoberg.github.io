@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Using Reinforcement-learning and Q-learning to play Snake"
+date:   2017-11-19
+categories: jekyll update
+---
 ## Dependencies
 - Python3.6
 - Keras
