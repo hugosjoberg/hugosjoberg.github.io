@@ -37,6 +37,7 @@
                 <a href="{{ page.url }}" class="image featured"><img src="{{page.image}}" alt="" /></a>
               {% endif %}
               {{ content }}
+              {% include disqus.html %}
               <footer>
                 <ul class="stats">
                 {% for tag in page.tags limit:3 %}
@@ -49,7 +50,6 @@
         -->
                 </ul>
               </footer>
-          {% include disqus.html %}
            </article>
   					<ul class="actions pagination">
   					  {% if page.previous %}
