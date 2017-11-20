@@ -2,7 +2,7 @@
 layout: post
 title:  "Using Reinforcement-learning and Q-learning to play Snake"
 date:   2017-11-19
-categories: CNN, Reinforced learning, q-learn, snake
+categories: walkthrough
 comments: true
 ---
 ## Dependencies
