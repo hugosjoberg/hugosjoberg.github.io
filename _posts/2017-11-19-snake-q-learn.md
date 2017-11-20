@@ -2,7 +2,8 @@
 layout: post
 title:  "Using Reinforcement-learning and Q-learning to play Snake"
 date:   2017-11-19
-categories: jekyll update
+categories: CNN, Reinforced learning, q-learn, snake
+comments: true
 ---
 ## Dependencies
 - Python3.6

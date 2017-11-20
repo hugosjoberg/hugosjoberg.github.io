@@ -18,7 +18,6 @@ highlighter: rouge
 kramdown:
   input: GFM
   hard_wrap: false
-comments: true
 author:            "Hugo Sjöberg"
 
 plugins:
