@@ -13,7 +13,7 @@ comments: true
 
 ## Background
 The background for me to do this project was of course to learn more about reinforced learning but also to get a trip down memory lane with the classic Snake game. I have previously done some work with other deep learning methods such as classifications tasks so it was rewarding to try something slightly different.
-
+![]({{ https://hugocool24.github.io/ }}/images/snake.gif)
 ## Reinforcement Learning
 In the Snake game we are controlling a snake that wants to eat apples(weird right?!) and when it does it gains a reward and it also grows in size. The snake is allowed to move freely around the playing field but the game is over if the snake hits the walls or itself. To control it we can use four different actions, arrow up, down, left and right.
 
