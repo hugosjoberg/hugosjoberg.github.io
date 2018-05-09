@@ -8,9 +8,9 @@ description:       > # this means to ignore newlines until "baseurl:"
   machine-learning and more specifically deep-learning. Python will be my preferred weapon
   of choice but soon enough I will also be able to wield C++.""
 baseurl:            # the subpath of your site, e.g. /blog/
-url:               "hugocool24.github.io" # the base hostname & protocol for your site
+url:               "hugosjoberg.github.io" # the base hostname & protocol for your site
 twitter_username:  HugoTheGeekBoss"
-github_username:   "hugocool24"
+github_username:   "hugosjoberg"
 linkedin_username: "hugo-sjöberg-56a31743"
 # Build settings
 markdown: kramdown
