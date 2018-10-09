@@ -15,7 +15,7 @@ comments: true
 The background for me to do this project was of course to learn more about reinforced learning but also to get a trip down memory lane with the classic Snake game. I have previously done some work with other deep learning methods such as classifications tasks so it was rewarding to try something slightly different.
 
 
-  ![]({{ https://hugocool24.github.io/ }}/images/snake.gif)
+  ![]({{ https://hugosjoberg.github.io/ }}/images/snake.gif)
 ## Reinforcement Learning
 In the Snake game we are controlling a snake that wants to eat apples(weird right?!) and when it does it gains a reward and it also grows in size. The snake is allowed to move freely around the playing field but the game is over if the snake hits the walls or itself. To control it we can use four different actions, arrow up, down, left and right.
 
@@ -32,14 +32,14 @@ An example of what happens when the game reaches a local minimum would be that t
 ## Convolutional Neural Network
 A Convolutional Neural Network or CNN is a kind of network that is suitable to use when the input format to the neural net is a matrix or tensor instead of a vector. In our case the input we use is a 80x80x1 image. A convolution is a sliding filter that gets applied to the picture. In the gif below a 3x3 kernel filter it applied to a black and white picture. Where the 0 is black and 1 is white. The filter multiplies the values element-wise and sums them up.
 
-![]({{ https://hugocool24.github.io/ }}/images/Convolution_schematic.gif)
+![]({{ https://hugosjoberg.github.io/ }}/images/Convolution_schematic.gif)
 
 How this works in practice is somewhat shown below where a kernel filter is applied to a picture of Taj Mahal.
 
-![]({{ https://hugocool24.github.io/ }}/images/convolution-edge-detect1.png)
-![]({{ https://hugocool24.github.io/ }}/images/generic-taj-convmatrix-edge-detect.jpg)
+![]({{ https://hugosjoberg.github.io/ }}/images/convolution-edge-detect1.png)
+![]({{ https://hugosjoberg.github.io/ }}/images/generic-taj-convmatrix-edge-detect.jpg)
 
-![]({{ https://hugocool24.github.io/ }}/images/convolution-calculate.png)
+![]({{ https://hugosjoberg.github.io/ }}/images/convolution-calculate.png)
 
 The way the filter is applied is also shown in the picture above where the filter reads from left to right, top to down. With the filter applied to the matrix the result is 42: (40\*0)+(42\*1)+(46\*0) + (46\*0)+(50\*0)+(55\*0) + (52\*0)+(56\*0)+(58\*0) = 42.
 
