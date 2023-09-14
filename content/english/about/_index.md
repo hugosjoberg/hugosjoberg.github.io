@@ -1,9 +1,9 @@
 ---
-title: "Hey, I am John Doe!"
+title: "Hey, I am Hugo Sjöberg!"
 meta_title: "About"
 description: "this is meta description"
 image: "/images/avatar.png"
 draft: false
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+I'm Hugo, I'm a backend engineer. I truly enjoy working with backend services that need to be able to handle high throughput and databases with many entries. Like a cargo ship, I also enjoy containers, I enjoy them the most when they are orchestrated by Kubernetes. The containers I like the most are the ones with code written but not limited to in Golang, Python, or Node.
