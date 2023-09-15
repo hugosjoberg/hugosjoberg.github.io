@@ -11131,9 +11131,6 @@ input#nav-toggle:checked ~ #nav-menu {
 .absolute {
   position: absolute;
 }
-.sticky {
-  position: sticky;
-}
 .left-0 {
   left: 0px;
 }
