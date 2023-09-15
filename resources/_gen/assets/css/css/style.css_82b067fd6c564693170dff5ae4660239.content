@@ -11222,9 +11222,6 @@ input#nav-toggle:checked ~ #nav-menu {
 .table {
   display: table;
 }
-.grid {
-  display: grid;
-}
 .hidden {
   display: none;
 }
@@ -11242,15 +11239,6 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 .cursor-pointer {
   cursor: pointer;
-}
-.place-content-center {
-  place-content: center;
-}
-.place-items-center {
-  place-items: center;
-}
-.content-center {
-  align-content: center;
 }
 .items-center {
   align-items: center;
@@ -11321,10 +11309,6 @@ input#nav-toggle:checked ~ #nav-menu {
 .py-14 {
   padding-top: 3.5rem;
   padding-bottom: 3.5rem;
-}
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
 }
 .py-7 {
   padding-top: 1.75rem;
@@ -12391,11 +12375,6 @@ input#nav-toggle:checked ~ #nav-menu {
 }
   @media (min-width: 1024px) {
 
-  .lg\:col-3 {
-    flex: 0 0 auto;
-    width: 25%;
-  }
-
   .lg\:col-4 {
     flex: 0 0 auto;
     width: 33.333333333333336%;
@@ -12507,16 +12486,8 @@ input#nav-toggle:checked ~ #nav-menu {
     order: 1;
   }
 
-  .lg\:mb-0 {
-    margin-bottom: 0px;
-  }
-
   .lg\:ml-0 {
     margin-left: 0px;
-  }
-
-  .lg\:mt-0 {
-    margin-top: 0px;
   }
 
   .lg\:block {
@@ -12548,14 +12519,6 @@ input#nav-toggle:checked ~ #nav-menu {
 
   .lg\:pb-0 {
     padding-bottom: 0px;
-  }
-
-  .lg\:text-left {
-    text-align: left;
-  }
-
-  .lg\:text-right {
-    text-align: right;
   }
 }
   @media (min-width: 1280px) {
