@@ -33,6 +33,14 @@
 {{ if and site.Config.Services.GoogleAnalytics.ID (ne site.Config.Services.GoogleAnalytics.ID "G-MEASUREMENT_ID") }}
   {{ template "_internal/google_analytics.html" . }}
 {{ end }}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BVN8TMPDJD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-BVN8TMPDJD');
+</script>
 
 
 <!-- google tag manager -->
