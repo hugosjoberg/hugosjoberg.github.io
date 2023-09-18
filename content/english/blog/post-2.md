@@ -16,13 +16,13 @@ Imagine you are running a service which calls a slow operation, let's say a it m
 
 Wouldn't it be nice if we didn't have to call the database 10 times but instead return the data we get back from the first request to all other requests?
 
-Well this is usally where caching comes in, but let's be a little bit more experimental and give the package `singleflight`` a swing.
+Well this is usally where caching comes in, but let's be a little bit more experimental and give the package `singleflight` a swing.
 
 This is how godoc describes singleflight:
 
 > Package singleflight provides a duplicate function call suppression mechanism.
 
-Alright sounds promising, the `singleflight`` package in Go is a utility for managing duplicate function calls in a concurrent and efficient manner. It helps ensure that a given function is executed only once even if multiple goroutines attempt to invoke it simultaneously.
+Alright sounds promising, the `singleflight` package in Go is a utility for managing duplicate function calls in a concurrent and efficient manner. It helps ensure that a given function is executed only once even if multiple goroutines attempt to invoke it simultaneously.
 
 ```golang
 package main
@@ -74,6 +74,8 @@ Let's run this to see what happens:
 > curl localhost:8080/ <- New terminal window
 > called 1 times
 ```
+
+As we can see by this example the slow function `incCounter` is only invoked 1 time :rocket:
 
 `group.Do` accepts a string which serves as an identifier or similar for call, the third returned value indicated is the returned value is shared.
 

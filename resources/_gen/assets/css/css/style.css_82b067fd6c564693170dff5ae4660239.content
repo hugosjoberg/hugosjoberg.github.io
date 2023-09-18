@@ -10502,15 +10502,21 @@ main {
   padding-left: 0.375em;
 }
 .content :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
-  color: var(--tw-prose-code);
+  color: #64748b;
   font-weight: 600;
   font-size: 0.875em;
+  background-color: #f5f5f4;
+  border-radius: 0.25rem;
+  padding-left: 0.375rem;
+  padding-right: 0.375rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 .content :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))::before {
-  content: "`";
+  content: none;
 }
 .content :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))::after {
-  content: "`";
+  content: none;
 }
 .content :where(a code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
   color: inherit;

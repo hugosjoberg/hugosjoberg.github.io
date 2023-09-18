@@ -20,6 +20,10 @@ disableLanguages = [
 ] # example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
 hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
 
+enableRobotsTXT = true
+enableEmoji = true
+
+
 
 ########################## Permalinks ############################
 [permalinks.page]
@@ -152,5 +156,3 @@ link = "js/modal.js"
 link = "plugins/cookie.js"
 [[params.plugins.js]]
 link = "plugins/youtube-lite.js"
-
-enableRobotsTXT=true
