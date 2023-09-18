@@ -4,7 +4,7 @@ meta_title: ""
 description: "Singleflight in Golang"
 date: 2022-04-04T05:00:00Z
 image: "/images/singleflight.png"
-categories: ["Misc"]
+categories: ["golang", "concurrency"]
 author: "Hugo Sjoberg"
 tags: ["golang", "concurrency"]
 draft: false
