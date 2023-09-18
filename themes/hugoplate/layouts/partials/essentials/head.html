@@ -32,6 +32,7 @@
 <!-- google analytics -->
 {{ if and site.Config.Services.GoogleAnalytics.ID (ne site.Config.Services.GoogleAnalytics.ID "G-MEASUREMENT_ID") }}
   {{ template "_internal/google_analytics.html" . }}
+  {{ template "_internal/google_analytics_async.html" . }}
 {{ end }}
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-BVN8TMPDJD"></script>
 <script>
