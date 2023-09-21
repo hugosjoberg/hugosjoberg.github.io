@@ -1,3 +1,17 @@
+---
+title: "Singleflight"
+meta_title: ""
+description: "Singleflight in Golang"
+date: 2022-04-04T05:00:00Z
+image: "/images/singleflight.png"
+categories: ["golang", "concurrency"]
+author: "Hugo Sjoberg"
+tags: ["golang", "concurrency"]
+draft: false
+---
+
+# Why Singleflight?
+
 Imagine you are running a service that calls a slow operation, let's say it makes an expensive query to a database. Now this particular service is a popular one, before the first query even returned a result 10 more identical requests were made.
 
 Wouldn't it be nice if we didn't have to call the database 10 times but instead return the data we get back from the first request to all other requests?
