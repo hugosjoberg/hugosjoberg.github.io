@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog Posts on Hugo Sjöberg</title>
+    <link>/blog/</link>
+    <description>Recent content in Blog Posts on Hugo Sjöberg</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Sep 2023 05:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Graceful shutdown of server in Go</title>
+      <link>/blog/golang/graceful-shutdown/</link>
+      <pubDate>Mon, 18 Sep 2023 05:00:00 +0000</pubDate>
+      
+      <guid>/blog/golang/graceful-shutdown/</guid>
+      <description>Graceful shutdown Graceful shutdown refers to shutting down an application or service in a way that allows it to finish any ongoing tasks or transactions, clean up resources, and exit in an orderly and controlled manner.</description>
+    </item>
+    
+    <item>
+      <title>Singleflight</title>
+      <link>/blog/golang/singleflight/</link>
+      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
+      
+      <guid>/blog/golang/singleflight/</guid>
+      <description>Why Singleflight? Imagine you are running a service that calls a slow operation, let&amp;rsquo;s say it makes an expensive query to a database.</description>
+    </item>
+    
+    <item>
+      <title>Why blogging</title>
+      <link>/blog/welcome/</link>
+      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
+      
+      <guid>/blog/welcome/</guid>
+      <description>Welcome to my blog! In this inaugural post, I want to share my motivations and aspirations behind this venture.</description>
+    </item>
+    
+  </channel>
+</rss>
