@@ -10747,6 +10747,15 @@ main {
 .content :where(.prose > :last-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
   margin-bottom: 0;
 }
+.content :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))::darkMode {
+  color: #64748b;
+  background-color: #f5f5f4;
+  border-radius: 0.25rem;
+  padding-left: 0.375rem;
+  padding-right: 0.375rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
 .content {
   max-width: none;
 }
