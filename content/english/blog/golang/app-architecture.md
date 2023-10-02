@@ -1,7 +1,7 @@
 ---
 title: "One way to architecture your app"
 meta_title: ""
-description: "One way to architecture your app"
+description: "A simple way to architect your golang application without a fancy design"
 date: 2023-09-30T05:00:00Z
 categories: ["golang", "architecture"]
 author: "Hugo Sjoberg"
