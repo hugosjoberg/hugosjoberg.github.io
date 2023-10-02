@@ -11,4 +11,9 @@ social:
   - name: linkedin
     icon: fa-brands fa-linkedin
     link: https://www.linkedin.com/in/hugo-sj%C3%B6berg
+
+  - name: twitter
+    icon: fa-brands fa-twitter
+    link: https://twitter.com/tjugohugo
+
 ---
