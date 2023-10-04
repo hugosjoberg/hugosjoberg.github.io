@@ -21,7 +21,7 @@ There are many architectures out there such as
 
  Typically these design patterns do not have its roots in golang but rather stem from more traditional programming languages such as Java and C# where inheritance polymorphism and other OOP patterns is a big thing. While this kind of architecture might make sense in another programming language I don't necessarily think it makes sense in Golang.
 
- # Project Structure
+# Project Structure
 
 Let's start with the basic project structure, I typically try to follow this [resource](https://github.com/golang-standards/project-layout) as it's pretty commonly used throughout the industry. Also, the go team just wrote a [blog-post](https://go.dev/doc/modules/layout) about it.
 
