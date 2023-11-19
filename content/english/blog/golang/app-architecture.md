@@ -23,9 +23,9 @@ There are many architectures out there such as
 
 # Project Structure
 
-Let's start with the basic project structure, I typically try to follow this [resource](https://github.com/golang-standards/project-layout) as it's pretty commonly used throughout the industry. Also, the go team just wrote a [blog-post](https://go.dev/doc/modules/layout) about it.
+Let's start with the basic project structure, I typically try to follow this [resource](https://go.dev/doc/modules/layout) as it's pretty commonly used throughout the industry.
 
-According to [Golang-standards Project layout](https://github.com/golang-standards/project-layout) we'll need the following:
+According to [Organizing a Go module](https://go.dev/doc/modules/layout) we'll need the following:
 
 `/cmd`
 
@@ -34,10 +34,6 @@ This will serve as the entry point to our program eg. `go run /cmd/api/my-app.go
 `/internal`
 
 Private app and library code, this code is only to be consumed by this application/library. This is typically where most of your app code will end up.
-
-`/pkg`
-
-Code that is exported, other applications/libraries may import from here, for example, if we have an auth-middleware that can be shared with multiple projects.
 
 `/api`
 
@@ -154,7 +150,7 @@ func NewUserHandler() *UserHandler {
 ```golang
 // internal/admin/handler.go
 
-type AdmimHandler struct{}
+type AdminHandler struct{}
 
 func (u *AdmimHandler) PostAdminUser(w http.ResponseWriter, r *http.Request) *api.Response {
 	var req api.PostAdminUserJSONRequestBody
@@ -167,8 +163,8 @@ func (u *AdmimHandler) PostAdminUser(w http.ResponseWriter, r *http.Request) *ap
 	return api.PostAdminUserJSON200Response(api.User{ID: &id, Name: req.Name})
 }
 
-func NewAdmimHandler() *AdmimHandler {
-	return &AdmimHandler{}
+func NewAdminHandler() *AdminHandler {
+	return &AdminHandler{}
 }
 ```
 
