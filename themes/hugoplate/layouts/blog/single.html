@@ -5,8 +5,10 @@
         <article class="lg:col-10">
           {{ $image:= .Params.image }}
           {{ if $image }}
-            <div class="mb-10">
-              {{ partial "image" (dict "Src" $image "Alt" .Title "Class" "w-full rounded") }}
+            <div class="grid grid-cols-10 mb-10">
+              <div class="item1 col-span-2"></div>
+              <div class="item1 col-span-6">{{ partial "image" (dict "Src" $image "Alt" .Title "Class" "w-full rounded") }}</div>
+              <div class="item1 col-span-2"></div>
             </div>
           {{ end }}
           <h1 class="h2 mb-4">

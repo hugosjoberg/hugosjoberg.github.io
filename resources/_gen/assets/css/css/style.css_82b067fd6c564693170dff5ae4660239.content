@@ -11208,6 +11208,27 @@ input#nav-toggle:checked ~ #nav-menu {
 .order-3 {
   order: 3;
 }
+.col-span-1 {
+  grid-column: span 1 / span 1;
+}
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
+.col-span-4 {
+  grid-column: span 4 / span 4;
+}
+.col-span-5 {
+  grid-column: span 5 / span 5;
+}
+.col-span-6 {
+  grid-column: span 6 / span 6;
+}
+.col-span-8 {
+  grid-column: span 8 / span 8;
+}
+.col-start-2 {
+  grid-column-start: 2;
+}
 .m-1 {
   margin: 0.25rem;
 }
@@ -11296,11 +11317,17 @@ input#nav-toggle:checked ~ #nav-menu {
 .table {
   display: table;
 }
+.grid {
+  display: grid;
+}
 .hidden {
   display: none;
 }
 .h-6 {
   height: 1.5rem;
+}
+.w-5\/12 {
+  width: 41.666667%;
 }
 .w-\[30px\] {
   width: 30px;
@@ -11314,6 +11341,15 @@ input#nav-toggle:checked ~ #nav-menu {
 .cursor-pointer {
   cursor: pointer;
 }
+.grid-cols-10 {
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+}
+.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+.grid-cols-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
 .items-start {
   align-items: flex-start;
 }
@@ -11325,6 +11361,9 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 .justify-between {
   justify-content: space-between;
+}
+.gap-4 {
+  gap: 1rem;
 }
 .space-x-1 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
