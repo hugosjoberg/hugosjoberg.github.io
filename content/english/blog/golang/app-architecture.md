@@ -1,5 +1,5 @@
 ---
-title: "One way to architecture your app"
+title: "One way to architecture your Golang app"
 meta_title: ""
 description: "A simple way to architect your golang application without a fancy design"
 date: 2023-09-30T05:00:00Z
