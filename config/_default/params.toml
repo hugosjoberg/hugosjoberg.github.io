@@ -56,10 +56,10 @@ show_categories = true
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Hugo", "Blog"]
-description = "Hugo Sjöberg blog"
-author = "hugo.sjoberg"
-image = "images/favicon.png"
+keywords = ["backend engineer", "freelance consultant", "Malmö", "Sweden", "Go developer", "Golang", "Python", "Kubernetes", "software engineer", "backend developer", "konsult", "systemutvecklare"]
+description = "Hugo Sjöberg - Freelance backend engineer and consultant based in Malmö, Sweden. Specialized in Go, Python, Kubernetes, and scalable distributed systems."
+author = "Hugo Sjöberg"
+image = "images/avatar.png"
 
 
 # site verifications

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>React on Hugo Sjöberg</title>
+    <link>http://localhost:1313/categories/react/</link>
+    <description>Recent content in React on Hugo Sjöberg</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Feb 2024 05:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/react/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Micro-frontend using Module federation</title>
+      <link>http://localhost:1313/blog/frontend/module-federation/</link>
+      <pubDate>Tue, 27 Feb 2024 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/frontend/module-federation/</guid>
+      <description>&lt;h1 id=&#34;micro-frontend&#34;&gt;Micro-frontend&lt;/h1&gt;&#xA;&lt;p&gt;Micro frontends is an architectural used to break down a big website into smaller frontends. Imagine you work for a big-ass company and you have one team responsible for the navbar, one team responsible for the footer etc.&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;&#xA;&#xA;&lt;div class=&#34;notice warning&#34;&gt;&#xA;  &lt;div class=&#34;notice-head&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;1.5&#34; stroke=&#34;currentColor&#34; width=&#34;22&#34; height=&#34;22&#34;&gt;&#xA;        &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z&#34; /&gt;&#xA;      &lt;/svg&gt;&#xA;      &lt;p&gt;Warning&lt;/p&gt;&#xA;    &#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;notice-body&#34;&gt;&lt;p&gt;This is why you stay away from big companies!&lt;/p&gt;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;It can also be useful if you have several static websites which you would like to run next to each other, sharing things such as login but one website is using react-12 and the other website is running the newest a shiniest version of react.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

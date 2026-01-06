@@ -1,0 +1,37 @@
+<meta charset="utf-8" />
+<title>{{ .Title | default site.Title }}</title>
+
+<!-- responsive meta -->
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, maximum-scale=5" />
+
+<!-- theme meta -->
+<meta name="theme-name" content="hugoplate" />
+
+<!-- favicon -->
+{{ partialCached "favicon" . }}
+
+
+<!-- manifest -->
+{{ partialCached "manifest" . }}
+
+
+<!-- site verifications -->
+{{ partialCached "site-verifications.html" . }}
+
+
+<!-- opengraph and twitter card -->
+{{ partial "basic-seo.html" . }}
+
+
+<!-- custom script -->
+{{ partialCached "custom-script.html" . }}
+
+
+<!-- google tag manager (replaces deprecated google analytics) -->
+{{ partialCached "gtm.html" . }}
+
+
+<!-- search index -->
+{{ partial "search-index.html" . }}
