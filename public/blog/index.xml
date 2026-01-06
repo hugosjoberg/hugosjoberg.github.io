@@ -2,37 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog Posts on Hugo Sjöberg</title>
-    <link>/blog/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content in Blog Posts on Hugo Sjöberg</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Sep 2023 05:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Feb 2024 05:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Graceful shutdown of server in Go</title>
-      <link>/blog/golang/graceful-shutdown/</link>
-      <pubDate>Mon, 18 Sep 2023 05:00:00 +0000</pubDate>
-      
-      <guid>/blog/golang/graceful-shutdown/</guid>
-      <description>Graceful shutdown Graceful shutdown refers to shutting down an application or service in a way that allows it to finish any ongoing tasks or transactions, clean up resources, and exit in an orderly and controlled manner.</description>
+      <title>Micro-frontend using Module federation</title>
+      <link>http://localhost:1313/blog/frontend/module-federation/</link>
+      <pubDate>Tue, 27 Feb 2024 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/frontend/module-federation/</guid>
+      <description>&lt;h1 id=&#34;micro-frontend&#34;&gt;Micro-frontend&lt;/h1&gt;&#xA;&lt;p&gt;Micro frontends is an architectural used to break down a big website into smaller frontends. Imagine you work for a big-ass company and you have one team responsible for the navbar, one team responsible for the footer etc.&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;&#xA;&#xA;&lt;div class=&#34;notice warning&#34;&gt;&#xA;  &lt;div class=&#34;notice-head&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;1.5&#34; stroke=&#34;currentColor&#34; width=&#34;22&#34; height=&#34;22&#34;&gt;&#xA;        &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z&#34; /&gt;&#xA;      &lt;/svg&gt;&#xA;      &lt;p&gt;Warning&lt;/p&gt;&#xA;    &#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;notice-body&#34;&gt;&lt;p&gt;This is why you stay away from big companies!&lt;/p&gt;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;It can also be useful if you have several static websites which you would like to run next to each other, sharing things such as login but one website is using react-12 and the other website is running the newest a shiniest version of react.&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Accept interface return struct</title>
+      <link>http://localhost:1313/blog/golang/accept-interface-return-struct/</link>
+      <pubDate>Tue, 03 Oct 2023 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/golang/accept-interface-return-struct/</guid>
+      <description>&lt;h1 id=&#34;accept-interface-return-struct&#34;&gt;Accept interface return struct&lt;/h1&gt;&#xA;&lt;p&gt;The term &lt;code&gt;Accept interface return struct&lt;/code&gt; was first coined by Jack Lindamood in this &lt;a href=&#34;https://medium.com/@cep21/preemptive-interface-anti-pattern-in-go-54c18ac0668a&#34;&#xA;&#xA;&#xA;&#xA;&#xA; target=&#34;_blank&#34;&#xA; &#xA;&#xA;&#xA;&gt;article&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h1 id=&#34;real-world-example&#34;&gt;Real world example&lt;/h1&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s use an example where a we set a user session in a cache and get a user session in a cache. The cache in this case can be what-ever, Redis, Memcached, Postgres(please don&amp;rsquo;t), in-memory etc. But from a session perspective we want to be able to set the session and get the session.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>One way to architecture your Golang app</title>
+      <link>http://localhost:1313/blog/golang/app-architecture/</link>
+      <pubDate>Sat, 30 Sep 2023 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/golang/app-architecture/</guid>
+      <description>&lt;h1 id=&#34;one-way-to-architecture-your-app&#34;&gt;One way to architecture your app&lt;/h1&gt;&#xA;&lt;p&gt;One common question/talking point in the golang community is how to architect your application. It&amp;rsquo;s a pretty loaded question and a lot of people have a strong opinion on what&amp;rsquo;s the &amp;ldquo;right&amp;rdquo; way. I don&amp;rsquo;t think that there is one way of architecture your app, that being said I will present one way of architecture your app.&lt;/p&gt;&#xA;&lt;p&gt;There are many architectures out there such as&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Singleflight</title>
-      <link>/blog/golang/singleflight/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      
-      <guid>/blog/golang/singleflight/</guid>
-      <description>Why Singleflight? Imagine you are running a service that calls a slow operation, let&amp;rsquo;s say it makes an expensive query to a database.</description>
+      <link>http://localhost:1313/blog/golang/singleflight/</link>
+      <pubDate>Wed, 20 Sep 2023 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/golang/singleflight/</guid>
+      <description>&lt;h1 id=&#34;why-singleflight&#34;&gt;Why Singleflight?&lt;/h1&gt;&#xA;&lt;p&gt;Imagine you are running a service that calls a slow operation, let&amp;rsquo;s say it makes an expensive query to a database. Now this particular service is a popular one, before the first query even returned a result 10 more identical requests were made.&lt;/p&gt;&#xA;&lt;p&gt;Wouldn&amp;rsquo;t it be nice if we didn&amp;rsquo;t have to call the database 10 times but instead return the data we get back from the first request to all other requests?&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Graceful shutdown of server in Go</title>
+      <link>http://localhost:1313/blog/golang/graceful-shutdown/</link>
+      <pubDate>Mon, 18 Sep 2023 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/golang/graceful-shutdown/</guid>
+      <description>&lt;h1 id=&#34;graceful-shutdown&#34;&gt;Graceful shutdown&lt;/h1&gt;&#xA;&lt;p&gt;Graceful shutdown refers to shutting down an application or service in a way that allows it to finish any ongoing tasks or transactions, clean up resources, and exit in an orderly and controlled manner. This is important to ensure that the application does not leave any unfinished work, corrupt data, or cause disruptions when it is terminated.&lt;/p&gt;&#xA;&lt;p&gt;For example, we might be running a service in Kubernetes, and we are experiencing lower traffic so we would naturally scale down the number of pods. The load balancer will not redirect traffic to pods that are in a terminated state.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Why blogging</title>
-      <link>/blog/welcome/</link>
+      <link>http://localhost:1313/blog/welcome/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      
-      <guid>/blog/welcome/</guid>
-      <description>Welcome to my blog! In this inaugural post, I want to share my motivations and aspirations behind this venture.</description>
+      <guid>http://localhost:1313/blog/welcome/</guid>
+      <description>&lt;p&gt;Welcome to my blog! In this inaugural post, I want to share my motivations and aspirations behind this venture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;learning-and-growth&#34;&gt;Learning and Growth&lt;/h2&gt;&#xA;&lt;p&gt;One of the primary reasons I started blogging is to document my personal growth as a software engineer. Every project, every bug, and every success has taught me something new. I believe that by sharing my experiences, I can help fellow developers who might be facing similar challenges or are just starting their journey. Whether it&amp;rsquo;s a tutorial on a new programming language or a deep dive into a complex algorithm.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -2,55 +2,88 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Hugo Sjöberg</title>
-    <link>/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Hugo Sjöberg</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Sep 2023 05:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Feb 2024 05:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>concurrency</title>
-      <link>/categories/concurrency/</link>
-      <pubDate>Mon, 18 Sep 2023 05:00:00 +0000</pubDate>
-      
-      <guid>/categories/concurrency/</guid>
+      <title>Frontend</title>
+      <link>http://localhost:1313/categories/frontend/</link>
+      <pubDate>Tue, 27 Feb 2024 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/frontend/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>golang</title>
-      <link>/categories/golang/</link>
-      <pubDate>Mon, 18 Sep 2023 05:00:00 +0000</pubDate>
-      
-      <guid>/categories/golang/</guid>
+      <title>React</title>
+      <link>http://localhost:1313/categories/react/</link>
+      <pubDate>Tue, 27 Feb 2024 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/react/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>server</title>
-      <link>/categories/server/</link>
-      <pubDate>Mon, 18 Sep 2023 05:00:00 +0000</pubDate>
-      
-      <guid>/categories/server/</guid>
+      <title>Vite</title>
+      <link>http://localhost:1313/categories/vite/</link>
+      <pubDate>Tue, 27 Feb 2024 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/vite/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>shutdown</title>
-      <link>/categories/shutdown/</link>
-      <pubDate>Mon, 18 Sep 2023 05:00:00 +0000</pubDate>
-      
-      <guid>/categories/shutdown/</guid>
+      <title>Design</title>
+      <link>http://localhost:1313/categories/design/</link>
+      <pubDate>Tue, 03 Oct 2023 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/design/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Golang</title>
+      <link>http://localhost:1313/categories/golang/</link>
+      <pubDate>Tue, 03 Oct 2023 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/golang/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Interface</title>
+      <link>http://localhost:1313/categories/interface/</link>
+      <pubDate>Tue, 03 Oct 2023 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/interface/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Architecture</title>
+      <link>http://localhost:1313/categories/architecture/</link>
+      <pubDate>Sat, 30 Sep 2023 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Concurrency</title>
+      <link>http://localhost:1313/categories/concurrency/</link>
+      <pubDate>Wed, 20 Sep 2023 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/concurrency/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Server</title>
+      <link>http://localhost:1313/categories/server/</link>
+      <pubDate>Mon, 18 Sep 2023 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/server/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shutdown</title>
+      <link>http://localhost:1313/categories/shutdown/</link>
+      <pubDate>Mon, 18 Sep 2023 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/shutdown/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Misc</title>
-      <link>/categories/misc/</link>
+      <link>http://localhost:1313/categories/misc/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      
-      <guid>/categories/misc/</guid>
+      <guid>http://localhost:1313/categories/misc/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

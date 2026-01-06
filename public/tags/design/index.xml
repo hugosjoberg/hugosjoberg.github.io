@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design on Hugo Sjöberg</title>
+    <link>http://localhost:1313/tags/design/</link>
+    <description>Recent content in Design on Hugo Sjöberg</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Oct 2023 05:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accept interface return struct</title>
+      <link>http://localhost:1313/blog/golang/accept-interface-return-struct/</link>
+      <pubDate>Tue, 03 Oct 2023 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/golang/accept-interface-return-struct/</guid>
+      <description>&lt;h1 id=&#34;accept-interface-return-struct&#34;&gt;Accept interface return struct&lt;/h1&gt;&#xA;&lt;p&gt;The term &lt;code&gt;Accept interface return struct&lt;/code&gt; was first coined by Jack Lindamood in this &lt;a href=&#34;https://medium.com/@cep21/preemptive-interface-anti-pattern-in-go-54c18ac0668a&#34;&#xA;&#xA;&#xA;&#xA;&#xA; target=&#34;_blank&#34;&#xA; &#xA;&#xA;&#xA;&gt;article&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h1 id=&#34;real-world-example&#34;&gt;Real world example&lt;/h1&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s use an example where a we set a user session in a cache and get a user session in a cache. The cache in this case can be what-ever, Redis, Memcached, Postgres(please don&amp;rsquo;t), in-memory etc. But from a session perspective we want to be able to set the session and get the session.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

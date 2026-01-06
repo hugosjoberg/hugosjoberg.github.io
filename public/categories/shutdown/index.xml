@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shutdown on Hugo Sjöberg</title>
-    <link>/categories/shutdown/</link>
-    <description>Recent content in shutdown on Hugo Sjöberg</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Shutdown on Hugo Sjöberg</title>
+    <link>http://localhost:1313/categories/shutdown/</link>
+    <description>Recent content in Shutdown on Hugo Sjöberg</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Sep 2023 05:00:00 +0000</lastBuildDate><atom:link href="/categories/shutdown/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Sep 2023 05:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/shutdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Graceful shutdown of server in Go</title>
-      <link>/blog/golang/graceful-shutdown/</link>
+      <link>http://localhost:1313/blog/golang/graceful-shutdown/</link>
       <pubDate>Mon, 18 Sep 2023 05:00:00 +0000</pubDate>
-      
-      <guid>/blog/golang/graceful-shutdown/</guid>
-      <description>Graceful shutdown Graceful shutdown refers to shutting down an application or service in a way that allows it to finish any ongoing tasks or transactions, clean up resources, and exit in an orderly and controlled manner.</description>
+      <guid>http://localhost:1313/blog/golang/graceful-shutdown/</guid>
+      <description>&lt;h1 id=&#34;graceful-shutdown&#34;&gt;Graceful shutdown&lt;/h1&gt;&#xA;&lt;p&gt;Graceful shutdown refers to shutting down an application or service in a way that allows it to finish any ongoing tasks or transactions, clean up resources, and exit in an orderly and controlled manner. This is important to ensure that the application does not leave any unfinished work, corrupt data, or cause disruptions when it is terminated.&lt;/p&gt;&#xA;&lt;p&gt;For example, we might be running a service in Kubernetes, and we are experiencing lower traffic so we would naturally scale down the number of pods. The load balancer will not redirect traffic to pods that are in a terminated state.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
